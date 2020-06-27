@@ -1,0 +1,14 @@
+Create Table films (
+show_ID	       Number constraint show_IDtype primaryKey,
+type        String,
+title       String,
+director      String,
+cast     String,     
+country      String,
+date_added      Date,
+release_year	     Integer,
+rating      Float(15,3),
+duration     Float(15,3),
+);
+
+#código para criação das tabelas no banco de dados
